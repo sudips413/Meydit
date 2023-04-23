@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.565fa148.css",
-    "main.js": "/static/js/main.ce457fee.js",
-    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
-    "static/media/dress.jpg": "/static/media/dress.26504b391bb98d466375.jpg",
-    "index.html": "/index.html",
-    "main.565fa148.css.map": "/static/css/main.565fa148.css.map",
-    "main.ce457fee.js.map": "/static/js/main.ce457fee.js.map",
-    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+    "main.css": "/Meydit/static/css/main.565fa148.css",
+    "main.js": "/Meydit/static/js/main.54964e54.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/Meydit/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/dress.jpg": "/Meydit/static/media/dress.26504b391bb98d466375.jpg",
+    "index.html": "/Meydit/index.html",
+    "main.565fa148.css.map": "/Meydit/static/css/main.565fa148.css.map",
+    "main.54964e54.js.map": "/Meydit/static/js/main.54964e54.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/Meydit/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.565fa148.css",
-    "static/js/main.ce457fee.js"
+    "static/js/main.54964e54.js"
   ]
 }
