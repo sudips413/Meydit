@@ -1,0 +1,14 @@
+/* input[type="text"], input[type="password"], input[type="email"] {
+    width: 60%;
+    height: 3rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    outline: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+} */
