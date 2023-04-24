@@ -21,6 +21,7 @@ import FormControl from '@mui/joy/FormControl';
 function AllOrders() {
 		const currentUser = useSelector(state=>state.userReducer.currentUser)
 		const allOrders=currentUser.orders
+		console.log(allOrders)
 		const[Category, setCategory] = React.useState('')
 		const [all, setAll] = React.useState(true)
 		return (
@@ -141,6 +142,7 @@ function AllOrders() {
 										>
 												{
 														all && Array.isArray(allOrders) && allOrders.map((order,index)=>{
+
 																return (
 																		<Order
 																				key={index}

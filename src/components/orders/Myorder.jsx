@@ -6,11 +6,15 @@ import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 // import CryptoJS from 'crypto-js';
 // import { useNavigate } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 
-function Order({order, key,role}) {
+function Myorder({order, key,role}) {
+	const currentUser = useSelector(state=>state.userReducer.currentUser)
 	const imgList = JSON.parse(order.images)
+	const userId= parseInt(localStorage.getItem('userID'))
+	const customer_id = parseInt(order.customer_id)
 	return (
-		   role!=='consumer'?
+			role==='consumer' && userId === customer_id?
 			<Card sx={{
 				mt:4,
 				width: 400,
@@ -92,12 +96,10 @@ function Order({order, key,role}) {
 				</Card>
 				:null
 
-			
-
 
 	
  
   )
 }
 
-export default Order
+export default Myorder

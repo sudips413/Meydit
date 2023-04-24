@@ -6,6 +6,7 @@ import userActions from '../../actions/userActions'
 import { useDispatch, useSelector } from 'react-redux'
 import { Grid } from '@mui/material'
 import Order from '../orders/Order'
+import Myorder from '../orders/Myorder'
 
 
 function Profile() {
@@ -45,7 +46,7 @@ function Profile() {
 					<Box sx={{ mt: 5, display: 'flex', flexDirection: 'column', alignItems: 'center',borderRadius:"10px" }}>
 					{
 						currentUser.orders.map((order,index)=>{
-							return <Order key={index} order={order} role={role} />
+							return <Myorder key={index} order={order} role={role} />
 						})
 					}
 
