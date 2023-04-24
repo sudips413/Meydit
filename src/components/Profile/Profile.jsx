@@ -45,7 +45,7 @@ function Profile() {
 					<Box sx={{ mt: 5, display: 'flex', flexDirection: 'column', alignItems: 'center',borderRadius:"10px" }}>
 					{
 						currentUser.orders.map((order,index)=>{
-							return <Order key={index} order={order} role={currentUser.role} />
+							return <Order key={index} order={order} role={role} />
 						})
 					}
 

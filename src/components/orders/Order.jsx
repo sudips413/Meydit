@@ -11,9 +11,10 @@ import { useSelector } from 'react-redux';
 function Order({order, key,role}) {
 	const currentUser = useSelector(state=>state.userReducer.currentUser)
 	const imgList = JSON.parse(order.images)
-
+	const userId= parseInt(localStorage.getItem('userID'))
+	const customer_id = parseInt(order.customer_id)
 	return (
-			role!=='consumer '?
+			role==='consumer' && userId === customer_id?
 			<Card sx={{
 				mt:4,
 				width: 400,
